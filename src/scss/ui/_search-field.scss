@@ -1,0 +1,30 @@
+.search-field {
+  position: relative;
+
+  input {
+    padding: 1rem 1.6rem;
+
+    border: 0.1rem solid #808080;
+    border-radius: 10rem;
+
+    color: inherit;
+
+    &::placeholder {
+      color: #A7A9AD;
+    }
+  }
+
+  button {
+    position: absolute;
+    top: 50%;
+    right: 1.6rem;
+    transform: translateY(-50%);
+  }
+
+  svg {
+    width: 1.6rem;
+    height: 1.6rem;
+
+    fill: white;
+  }
+}

@@ -1,0 +1,33 @@
+.navigation {
+  display: flex;
+  gap: 5.6rem;
+
+  &__button {
+    position: relative;
+
+    display: block;
+    width: 5.8rem;
+    height: 5.8rem;
+
+    border: 0.1rem solid #E8EBF0;
+    border-radius: 50%;
+
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 3.6rem;
+      height: 0.7rem;
+
+      stroke: black;
+    }
+
+    &_prev svg {
+      transform: scale(-1, 1) translateY(-0.6rem);
+    }
+
+    &_next svg {
+      transform: translateX(-100%) translateY(-0.6rem);
+    }
+  }
+}

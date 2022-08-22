@@ -1,0 +1,29 @@
+.slider {
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__title-block {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+  }
+
+  &__title {
+  }
+
+  &__content {
+  }
+
+  &__list {
+
+  }
+
+  &__item {
+    
+  }
+}

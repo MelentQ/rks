@@ -1,0 +1,92 @@
+<header class="header">
+    <div class="header__top">
+        <div class="container container_wide">
+            <div class="header__top-inner">
+                <div class="header__top-left">
+                    <select class="dropdown" name="city">
+                        <option value="1">Воронеж</option>
+                        <option value="2" selected>Казань</option>
+                        <option value="3">Курск</option>
+                    </select>
+                    <nav>
+                        <ul class="header__top-menu-list">
+                            {{#each topMenu}}
+                            <li>
+                                <a class="header__link" href="{{this.link}}">
+                                    <span>{{this.text}}</span>
+                                    {{#if this.notifications}}
+                                    <span class="header__link-notifications">{{this.notifications}}</span>
+                                    {{/if}}
+                                </a>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__top-right">
+                    <a class="header__phone" href="tel:88003017737">8 800 301 77 37</a>
+                    <button class="button">Заказать звонок</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__main">
+        <div class="container container_wide">
+            <div class="header__main-inner">
+                <div class="header__main-left">
+                    <a class="header__logo" href="./index.html">
+                        <img src="img/logo.svg" alt="Logo">
+                    </a>
+                    <button class="header__catalog-button">
+                        <svg>
+                            <use xlink:href="#catalog-burger" />
+                        </svg>
+                        <span>Каталог</span>
+                    </button>
+                    <nav>
+                        <ul class="header__menu-list">
+                            {{#each menu}}
+                            <li>
+                                <a class="header__main-link" href="{{this.link}}">
+                                    {{this.text}}
+                                </a>
+                            </li>
+                            {{/each}}
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__main-right">
+                    <form class="search-field">
+                        <input name="q" type="text" placeholder="Введите слово...">
+                        <button type="submit" title="Search">
+                            <svg>
+                                <use xlink:href="#search" />
+                            </svg>
+                        </button>
+                    </form>
+                    <a class="header__icon-link" href="#">
+                        <svg>
+                            <use xlink:href="#account" />
+                        </svg>
+                    </a>
+                    <a class="header__icon-link" href="#">
+                        <svg>
+                            <use xlink:href="#heart" />
+                        </svg>
+                    </a>
+                    <a class="header__icon-link" href="#">
+                        <svg>
+                            <use xlink:href="#chart" />
+                        </svg>
+                    </a>
+                    <a class="header__icon-link" href="#">
+                        <svg>
+                            <use xlink:href="#cart" />
+                        </svg>
+                        <span class="header__chart-count">2</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

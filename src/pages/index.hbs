@@ -1,0 +1,29 @@
+{{#extend "layout"}}
+{{#content "main"}}
+
+
+<section class="slider js-init-slider">
+    <div class="container">
+        <div class="slider__top">
+            <div class="slider__title-block">
+                <h2 class="slider__title">Популярные</h2>
+                {{> ui/show-more-link}}
+            </div>
+
+            {{> ui/navigation}}
+        </div>
+        <div class="slider__content swiper loading">
+            <ul class="slider__list swiper-wrapper">
+                {{#each cards}}
+                <li class="slider__item swiper-slide">
+                    {{> card data=this}}
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+{{/content}}
+{{/extend}}

@@ -1,0 +1,10 @@
+.button {
+  padding: 0.8rem 4.8rem;
+
+  background-color: #414348;
+  color: #CACACA;
+  border-radius: 0.2rem;
+
+  @extend %buttonText;
+  text-transform: uppercase;
+}

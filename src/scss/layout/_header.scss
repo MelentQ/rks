@@ -1,0 +1,170 @@
+.header {
+
+  background-color: #2F3034;
+  color: white;
+
+  &__top {
+    padding: 1rem 0;
+  }
+
+  &__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__top-left {
+    display: flex;
+    align-items: center;
+    gap: 4.4rem;
+  }
+
+  &__top-menu-list {
+    display: flex;
+    gap: 2rem;
+
+    color: #C8C8C8;
+  }
+
+  &__link {
+    position: relative;
+
+    @extend %buttonText;
+  }
+
+  &__link-notifications {
+    position: absolute;
+    top: -0.4rem;
+    right: -0.9rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.3rem;
+    height: 1.3rem;
+
+    border-radius: 50%;
+
+    background-color: #A3825F;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+
+  &__top-right {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  &__phone {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.4;
+    
+    &:link,
+    &:visited {
+      color: #A3825F;
+    }
+  }
+
+  &__main {
+    padding: 1.2rem 0;
+  }
+
+  &__main-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__main-left {
+    display: flex;
+    align-items: center;
+    gap: 3.6rem;
+  }
+
+  &__logo {
+    img {
+      width: 12rem;
+      height: auto;
+
+      object-fit: contain;
+    }
+  }
+
+  &__catalog-button {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.2rem 1.6rem;
+
+    background-color: #C19D76;
+    border-radius: 0.2rem;
+
+    font-weight: 500;
+
+    svg {
+      width: 1.7rem;
+      height: 1.3rem;
+    }
+  }
+
+  &__menu-list {
+    display: flex;
+    gap: 3.6rem;
+  }
+
+  &__main-link {
+    @extend %buttonText;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: -0.015em;
+
+    &:link,
+    &:visited {
+      color: #E1E1E1;
+    }
+  }
+
+  &__main-right {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+  }
+
+  &__icon-link {
+    position: relative;
+
+    svg {
+      width: 1.6rem;
+      height: 1.6rem;
+    }
+  }
+
+  &__chart-count {
+    position: absolute;
+    top: -1.2rem;
+    right: -1.4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+
+    border-radius: 50%;
+
+    font-size: 1rem;
+    line-height: 1.3;
+    background-color: #A3825F;
+    color: white;
+  }
+
+  .search-field {
+    min-width: 33.5rem;
+  }
+}

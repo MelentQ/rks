@@ -1,0 +1,71 @@
+<div class="card">
+  <div class="card__image-wrapper">
+    <img src="{{data.preview}}" alt="Preview Picture">
+  </div>
+  <ul class="card__tags">
+    {{#each data.tags}}
+    <li>
+      <a class="card__tag" href="{{this.link}}" style="background-color: {{this.color}};">{{this.text}}</a>
+    </li>
+    {{/each}}
+  </ul>
+  <ul class="card__buttons">
+    <li>
+      <button class="card__button" type="button" title="Add to Favorites">
+        <svg>
+          <use xlink:href="#heart" />
+        </svg>
+      </button>
+    </li>
+    <li>
+      <button class="card__button" type="button" title="Add to Compare">
+        <svg>
+          <use xlink:href="#chart" />
+        </svg>
+      </button>
+    </li>
+  </ul>
+  <div class="card__info">
+    <span class="card__code">{{data.code}}</span>
+    {{> ui/rating}}
+  </div>
+  <h3 class="card__name">{{data.name}}</h3>
+  <div class="card__price-block">
+    <div class="card__price-wrapper">
+      <span class="card__price">{{data.price}}</span>
+      <span class="card__discount">{{data.discount}}</span>
+    </div>
+    <span class="card__old-price">{{data.old-price}}</span>
+  </div>
+  <form class="card__form">
+    <div class="card__form-inputs">
+      <div class="card__counter-input">
+        <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+          <svg>
+            <use xlink:href="#minus" />
+          </svg></button>
+        <input name="count" type="number" value="480">
+        <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+          <svg>
+            <use xlink:href="#plus" />
+          </svg>
+        </button>
+      </div>
+      <select class="dropdown" name="unit">
+        <option value="1">шт.</option>
+        <option value="2">м²</option>
+      </select>
+    </div>
+    <button class="card__add-to-cart" type="submit" title="Add to Cart">
+      <svg>
+        <use xlink:href="#cart" />
+      </svg>
+    </button>
+  </form>
+  <div class="card__bottom">
+    <button class="card__buy-button" type="button">Купить в 1 клик</button>
+    <div class="card__status card__status_ok">
+      <span>В наличии</span>
+    </div>
+  </div>
+</div>
