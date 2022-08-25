@@ -1,0 +1,2427 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>
+        Главная страница
+    </title>
+</head>
+
+<body class="no-touch" ontouchstart="">
+    <div class="sprite" aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;">
+        <?xml version="1.0" encoding="utf-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 17 16" id="account" xmlns="http://www.w3.org/2000/svg"><path d="M8.5 0c1 0 2 .4 2.7 1.2a4 4 0 010 5.6C10.5 7.6 9.5 8 8.5 8c-1 0-2-.4-2.7-1.2a4 4 0 010-5.6C6.5.4 7.5 0 8.5 0zm0 2c-.5 0-1 .2-1.4.6a2 2 0 000 2.8c.4.4.9.6 1.4.6.5 0 1-.2 1.4-.6a2 2 0 000-2.8C9.5 2.2 9 2 8.5 2zm0 7c2.6 0 7.7 1.3 7.7 4v3H.8v-3c0-2.7 5.1-4 7.7-4zm0 1.9c-2.8 0-5.8 1.5-5.8 2.1v1.1h11.6V13c0-.6-3-2.1-5.8-2.1z"/></symbol><symbol fill="none" viewBox="0 0 38 9" id="arrow" xmlns="http://www.w3.org/2000/svg"><path d="M0 8h36L24 1"/></symbol><symbol viewBox="0 0 18 18" id="cart" xmlns="http://www.w3.org/2000/svg"><path d="M17.7 4.56a1.8 1.8 0 00-1.52-.9H4.68l-.51-2.03a.9.9 0 00-.9-.66h-1.8a.9.9 0 000 1.8H2.6l2.48 9.2a.9.9 0 00.9.67h8.07a.9.9 0 00.8-.5l2.95-5.88a1.8 1.8 0 00-.08-1.7zm-4.21 6.28H6.65L5.18 5.46h11l-2.7 5.38zm-7.97 6.29a1.35 1.35 0 100-2.7 1.35 1.35 0 000 2.7zm8.98 0a1.35 1.35 0 100-2.7 1.35 1.35 0 000 2.7z"/></symbol><symbol viewBox="0 0 18 15" id="catalog-burger" xmlns="http://www.w3.org/2000/svg"><path d="M14.63 2.16c.37 0 .62-.24.62-.6 0-.35-.25-.6-.63-.6H3.38c-.38 0-.63.25-.63.6 0 .36.25.6.63.6h11.25zm0 11.87c.37 0 .62-.24.62-.6 0-.35-.25-.59-.63-.59H3.38c-.38 0-.63.24-.63.6 0 .35.25.6.63.6h11.25zm2.5-7.13H.88c-.38 0-.63.24-.63.6s.25.6.63.6h16.25c.37 0 .62-.24.62-.6s-.25-.6-.63-.6z"/></symbol><symbol viewBox="0 0 17 16" id="chart" xmlns="http://www.w3.org/2000/svg"><path d="M5.88 12.17H4.13V6.33h1.75v5.84zm3.5 0H7.62V3.83h1.75v8.34zm3.5 0h-1.76V8.83h1.76v3.34zm1.74 1.66H2.38V2.17h12.25v11.75-.09zm0-13.33H2.38C1.4.5.63 1.25.63 2.17v11.66c0 .92.78 1.67 1.75 1.67h12.25c.96 0 1.74-.75 1.74-1.67V2.17c0-.92-.78-1.67-1.75-1.67z"/></symbol><symbol fill="none" viewBox="0 0 278 154" id="decoration" xmlns="http://www.w3.org/2000/svg"><path d="M93.882 16.822L1 70.98l138.137 82.122 137.148-81.728-93.672-54.552" stroke="#E2E6EC"/><path d="M93.882.469L1 54.626l138.137 82.122L276.285 55.02 182.613.469" stroke="#E2E6EC"/></symbol><symbol viewBox="0 0 18 16" id="heart" xmlns="http://www.w3.org/2000/svg"><path d="M9 1.8a5 5 0 00-6.8.2c-2 2-2 5 0 7l6 6.1a.8.8 0 001.5 0l6.1-6c2-2 2-5.1 0-7.1A5 5 0 009 1.8zm5.7 1.4a3.3 3.3 0 010 4.6L9 13.5 3.3 7.8a3.3 3.3 0 010-4.6c.7-.7 1.5-1 2.4-1 .8 0 1.7.3 2.3 1l.4.4a.8.8 0 001.2 0l.4-.4a3.3 3.3 0 014.7 0z"/></symbol><symbol viewBox="0 0 12 1" id="minus" xmlns="http://www.w3.org/2000/svg"><path d="M11.22 0H.85C.78 0 .73.05.73.1v.8c0 .05.05.1.12.1h10.37c.06 0 .11-.05.11-.1V.1c0-.05-.05-.1-.11-.1z"/></symbol><symbol fill="none" viewBox="0 0 12 10" id="plus" xmlns="http://www.w3.org/2000/svg"><path d="M5.28.74h1c.08 0 .12.03.12.1v8.33c0 .06-.04.1-.13.1h-.99c-.09 0-.13-.04-.13-.1V.83c0-.06.04-.1.13-.1z" fill="#2F3034"/><path d="M.26 4.53H11.3c.08 0 .13.03.13.1v.75c0 .06-.05.1-.13.1H.26c-.09 0-.13-.04-.13-.1v-.75c0-.07.04-.1.13-.1z" fill="#2F3034"/></symbol><symbol viewBox="0 0 16 16" id="search" xmlns="http://www.w3.org/2000/svg"><path d="M15.62 13.69L11.94 10a6.47 6.47 0 10-1.78 1.87l3.63 3.64a1.29 1.29 0 001.83 0c.5-.51.5-1.33 0-1.83zm-9.15-2.75a4.37 4.37 0 110-8.74 4.37 4.37 0 010 8.74z"/></symbol><symbol viewBox="0 0 14 13" id="starred" xmlns="http://www.w3.org/2000/svg"><path d="M12.93 4.42l-3.9-.57L7.3.32a.5.5 0 00-.88 0L4.67 3.85l-3.9.57a.49.49 0 00-.26.83L3.33 8l-.67 3.88a.49.49 0 00.71.52l3.48-1.84 3.49 1.84c.1.05.2.06.3.04.28-.04.46-.3.4-.56L10.39 8l2.82-2.75a.49.49 0 00-.27-.84z"/></symbol><symbol viewBox="0 0 14 13" id="unstarred" xmlns="http://www.w3.org/2000/svg"><path d="M12.75 4.42l-3.9-.57L7.13.32a.5.5 0 00-.88 0L4.48 3.85.6 4.42a.49.49 0 00-.27.83L3.15 8l-.67 3.88a.49.49 0 00.71.52l3.48-1.84 3.49 1.84c.1.05.2.06.3.04.28-.04.46-.3.41-.56L10.2 8l2.82-2.75a.49.49 0 00-.27-.84zm-3.73 3.2l.55 3.22-2.9-1.52-2.9 1.52.56-3.23L2 5.33l3.24-.47 1.44-2.94 1.45 2.94 3.24.47L9.02 7.6z"/></symbol></svg>    </div>
+
+    <div class="page-content">
+        <header class="header">
+            <div class="header__top">
+                <div class="container container_wide">
+                    <div class="header__top-inner">
+                        <div class="header__top-left">
+                            <select class="dropdown" name="city">
+                                <option value="1">Воронеж</option>
+                                <option value="2" selected>Казань</option>
+                                <option value="3">Курск</option>
+                            </select>
+                            <nav>
+                                <ul class="header__top-menu-list">
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>О компании</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>Акции</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>Партнерам</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>Франшиза</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>Производители</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>Курсы и вебинары</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>Статьи</span>
+                                            <span class="header__link-notifications">2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>Новости</span>
+                                            <span class="header__link-notifications">3</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>Галерея</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__link" href="#">
+                                            <span>FAQ</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__top-right">
+                            <a class="header__phone" href="tel:88003017737">8 800 301 77 37</a>
+                            <button class="button">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="container container_wide">
+                    <div class="header__main-inner">
+                        <div class="header__main-left">
+                            <a class="header__logo" href="./index.html">
+                                <img src="img/logo.svg" alt="Logo">
+                            </a>
+                            <button class="header__catalog-button">
+                                <svg>
+                                    <use xlink:href="#catalog-burger" />
+                                </svg>
+                                <span>Каталог</span>
+                            </button>
+                            <nav>
+                                <ul class="header__menu-list">
+                                    <li>
+                                        <a class="header__main-link" href="#">
+                                            Услуги архитектора
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__main-link" href="#">
+                                            Услуги строительства
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__main-link" href="#">
+                                            ЗD-визуализация
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__main-link" href="#">
+                                            Шоу-румы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="header__main-link" href="#">
+                                            Контакты
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header__main-right">
+                            <form class="search-field">
+                                <input name="q" type="text" placeholder="Введите слово...">
+                                <button type="submit" title="Search">
+                                    <svg>
+                                        <use xlink:href="#search" />
+                                    </svg>
+                                </button>
+                            </form>
+                            <a class="header__icon-link" href="#">
+                                <svg>
+                                    <use xlink:href="#account" />
+                                </svg>
+                            </a>
+                            <a class="header__icon-link" href="#">
+                                <svg>
+                                    <use xlink:href="#heart" />
+                                </svg>
+                            </a>
+                            <a class="header__icon-link" href="#">
+                                <svg>
+                                    <use xlink:href="#chart" />
+                                </svg>
+                            </a>
+                            <a class="header__icon-link" href="#">
+                                <svg>
+                                    <use xlink:href="#cart" />
+                                </svg>
+                                <span class="header__chart-count">2</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>        <main class="page-main">
+
+<section class="intro">
+    <div class="intro__bg" style="background-image: url(img/content/intro/intro-bg.jpeg); opacity: 57%"></div>
+
+    <div class="container container_wide intro__sliders">
+        <div class="swiper intro__left-slider js-init-intro-left-slider loading">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div class="intro__left-slide">
+                        <div class="intro__left-slide-text">
+                            <div>
+                                <h2 class="intro__left-slide-title">
+                                    Архитектурный клинкер специально для дома
+                                </h2>
+                                <div class="intro__left-slide-subtitle">
+                                    <p>Более 10 видов кирпича в наличии</p>
+                                </div>
+                            </div>
+                            <a class="intro__left-slide-link" href="#">
+                                <span>Подробнее</span>
+                                <div class="arrow ">
+                                  <svg>
+                                    <use xlink:href="#arrow" />
+                                  </svg>
+                                </div>                            </a>
+                        </div>
+                        <div class="intro__left-slide-image-wrapper">
+                            <div class="intro__left-slide-image-decoration"
+                                style="background-image: url(img/content/intro/intro-slider-decoration.svg);"></div>
+                            <img src="img/content/intro/slide.png" alt="Intro Left Slide Image">
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="intro__left-slide">
+                        <div class="intro__left-slide-text">
+                            <div>
+                                <h2 class="intro__left-slide-title">
+                                    Заголовок слайда №2
+                                </h2>
+                                <div class="intro__left-slide-subtitle">
+                                    <p>Подзаголовок слайда №2</p>
+                                </div>
+                            </div>
+                            <a class="intro__left-slide-link" href="#">
+                                <span>Подробнее</span>
+                                <div class="arrow ">
+                                  <svg>
+                                    <use xlink:href="#arrow" />
+                                  </svg>
+                                </div>                            </a>
+                        </div>
+                        <div class="intro__left-slide-image-wrapper">
+                            <div class="intro__left-slide-image-decoration"
+                                style="background-image: url(img/content/intro/intro-slider-decoration.svg);"></div>
+                            <img src="https://via.placeholder.com/200x600" alt="Intro Left Slide Image">
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="intro__left-slide">
+                        <div class="intro__left-slide-text">
+                            <div>
+                                <h2 class="intro__left-slide-title">
+                                    Заголовок слайда №3
+                                </h2>
+                                <div class="intro__left-slide-subtitle">
+                                    <p>Подзаголовок слайда №3</p>
+                                </div>
+                            </div>
+                            <a class="intro__left-slide-link" href="#">
+                                <span>Подробнее</span>
+                                <div class="arrow ">
+                                  <svg>
+                                    <use xlink:href="#arrow" />
+                                  </svg>
+                                </div>                            </a>
+                        </div>
+                        <div class="intro__left-slide-image-wrapper">
+                            <div class="intro__left-slide-image-decoration"
+                                style="background-image: url(img/content/intro/intro-slider-decoration.svg);"></div>
+                            <img src="https://via.placeholder.com/600x200" alt="Intro Left Slide Image">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="pagination"></div>            <div class="navigation">
+              <button class="navigation__button navigation__button_prev" type="button" title="Prev">
+                <div class="arrow arrow_revert">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+              <button class="navigation__button navigation__button_next" type="button" title="Next">
+                <div class="arrow ">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+            </div>        </div>
+        <div class="swiper intro__right-slider js-init-intro-right-slider loading">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div class="intro__right-slide">
+                        <div class="intro__right-slide-image-wrapper">
+                            <img src="img/content/intro/right-slide-picture.jpg" alt="Intro Right Slide Image">
+                            <div class="intro__right-slide-image-overlay" style="background-color: rgba(36, 36, 36, 0.74);">
+                            </div>
+                        </div>
+                        <div class="intro__right-slide-content">
+                            <div>
+                                <h2 class="intro__right-slide-title">
+                                    Готовые эскизные проекты
+                                </h2>
+                                <div class="intro__right-slide-subtitle">
+                                    <p>от 112 м до 320 м</p>
+                                </div>
+                            </div>
+                            <a class="intro__right-slide-link" href="#">
+                                <span>Смотреть</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="intro__right-slide">
+                        <div class="intro__right-slide-image-wrapper">
+                            <img src="https://via.placeholder.com/200x600" alt="Intro Right Slide Image">
+                            <div class="intro__right-slide-image-overlay" style="background-color: rgba(36, 36, 36, 0.8);">
+                            </div>
+                        </div>
+                        <div class="intro__right-slide-content">
+                            <div>
+                                <h2 class="intro__right-slide-title">
+                                    Короткое название
+                                </h2>
+                                <div class="intro__right-slide-subtitle">
+                                    <p>Короткое описание</p>
+                                </div>
+                            </div>
+                            <a class="intro__right-slide-link" href="#">
+                                <span>Смотреть</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="swiper-slide">
+                    <div class="intro__right-slide">
+                        <div class="intro__right-slide-image-wrapper">
+                            <img src="https://via.placeholder.com/600x200" alt="Intro Right Slide Image">
+                            <div class="intro__right-slide-image-overlay" style="background-color: rgba(36, 36, 36, 0.9);">
+                            </div>
+                        </div>
+                        <div class="intro__right-slide-content">
+                            <div>
+                                <h2 class="intro__right-slide-title">
+                                    Длинное название. Не следует, однако, забывать, что понимание сути ресурсосберегающих технологий говорит о возможностях вывода текущих активов!
+                                </h2>
+                                <div class="intro__right-slide-subtitle">
+                                    <p>Длинное описание. Сложно сказать, почему элементы политического процесса могут быть объединены в целые кластеры себе подобных.</p>
+                                </div>
+                            </div>
+                            <a class="intro__right-slide-link" href="#">
+                                <span>Смотреть</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="navigation">
+              <button class="navigation__button navigation__button_prev" type="button" title="Prev">
+                <div class="arrow arrow_revert">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+              <button class="navigation__button navigation__button_next" type="button" title="Next">
+                <div class="arrow ">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+            </div>        </div>
+    </div>
+
+    <ul class="container container_wide intro__links">
+        <li>
+            <a href="#">Строительство <br> коттеджей</a>
+        </li>
+        <li>
+            <a href="#">Архитектура <br> и дизайн</a>
+        </li>
+        <li>
+            <a href="#">Фотогалерея <br> объектов</a>
+        </li>
+        <li>
+            <a href="#">Индивидуальное <br> проектирование</a>
+        </li>
+        <li>
+            <a href="#">3D дизайн дома <br> <b>Бесплатно</b></a>
+        </li>
+        <li>
+            <a href="#">Собственное <br> производство</a>
+        </li>
+    </ul>
+
+</section>
+
+<section class="slider js-init-slider">
+    <div class="container">
+        <div class="slider__top">
+            <div class="slider__title-block">
+                <h2 class="slider__title">Популярные</h2>
+                <a class="show-more-link" href="#">
+                  <span>Смотреть все</span>
+                  <div class="arrow ">
+                    <svg>
+                      <use xlink:href="#arrow" />
+                    </svg>
+                  </div></a>            </div>
+
+            <div class="navigation">
+              <button class="navigation__button navigation__button_prev" type="button" title="Prev">
+                <div class="arrow arrow_revert">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+              <button class="navigation__button navigation__button_next" type="button" title="Next">
+                <div class="arrow ">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+            </div>        </div>
+        <div class="swiper loading">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                        <img src="img/content/product/preview-picture.jpg" alt="Preview Picture">
+                      </a>
+                      <ul class="card__tags">
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #A33200;"></div>
+                            <span>Хит продаж</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #D8AE2D;"></div>
+                            <span>Новинки</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Лучшая цена</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                          <span class="card__code">Арт. 128005</span>
+                          <div class="rating">
+                            <ul class="rating__stars">
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#unstarred" />
+                                </svg>
+                              </li>
+                            </ul>
+                            <span class="rating__count">12</span>
+                          </div>    </div>
+                        <a class="card__name" href="#">Кирпич лицевой Керма, Пшеничное Лето Гладкий, евро, 0,7НФ (КЕРМА, Нижний Новгород) в Белгороде</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">14,74 ₽</span>
+                            <span class="card__discount">10%</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                        <img src="https://via.placeholder.com/200x600" alt="Preview Picture">
+                      </a>
+                      <ul class="card__tags">
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #A33200;"></div>
+                            <span>Хит продаж</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #D8AE2D;"></div>
+                            <span>Новинки</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Лучшая цена</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Тест</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Тест</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Тест</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                          <span class="card__code">Арт. 128005</span>
+                          <div class="rating">
+                            <ul class="rating__stars">
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#unstarred" />
+                                </svg>
+                              </li>
+                            </ul>
+                            <span class="rating__count">12</span>
+                          </div>    </div>
+                        <a class="card__name" href="#">Длинное название. Идейные соображения высшего порядка, а также сложившаяся структура организации позволяет выполнять важные задания по разработке соответствующий условий активизации. Равным образом начало повседневной работы по формированию позиции играет важную роль в формировании форм развития.</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">77 777,77 ₽</span>
+                            <span class="card__discount">100%</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                        <img src="https://via.placeholder.com/600x200" alt="Preview Picture">
+                      </a>
+                      <ul class="card__tags">
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                          <div class="rating">
+                            <ul class="rating__stars">
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#unstarred" />
+                                </svg>
+                              </li>
+                            </ul>
+                            <span class="rating__count">12</span>
+                          </div>    </div>
+                        <a class="card__name" href="#">Головка пальца ноги</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">1 ₽</span>
+                            <span class="card__discount">0%</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                      </a>
+                      <ul class="card__tags">
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                        </div>
+                        <a class="card__name" href="#">Товар</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">100 ₽</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                      </a>
+                      <ul class="card__tags">
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                        </div>
+                        <a class="card__name" href="#">Товар</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">100 ₽</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="slider js-init-slider">
+    <div class="container">
+        <div class="slider__top">
+            <div class="slider__title-block">
+                <h2 class="slider__title">Новинки</h2>
+                <a class="show-more-link" href="#">
+                  <span>Смотреть все</span>
+                  <div class="arrow ">
+                    <svg>
+                      <use xlink:href="#arrow" />
+                    </svg>
+                  </div></a>            </div>
+
+            <div class="navigation">
+              <button class="navigation__button navigation__button_prev" type="button" title="Prev">
+                <div class="arrow arrow_revert">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+              <button class="navigation__button navigation__button_next" type="button" title="Next">
+                <div class="arrow ">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+            </div>        </div>
+        <div class="swiper loading">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                        <img src="img/content/product/preview-picture.jpg" alt="Preview Picture">
+                      </a>
+                      <ul class="card__tags">
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #A33200;"></div>
+                            <span>Хит продаж</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #D8AE2D;"></div>
+                            <span>Новинки</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Лучшая цена</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                          <span class="card__code">Арт. 128005</span>
+                          <div class="rating">
+                            <ul class="rating__stars">
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#unstarred" />
+                                </svg>
+                              </li>
+                            </ul>
+                            <span class="rating__count">12</span>
+                          </div>    </div>
+                        <a class="card__name" href="#">Кирпич лицевой Керма, Пшеничное Лето Гладкий, евро, 0,7НФ (КЕРМА, Нижний Новгород) в Белгороде</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">14,74 ₽</span>
+                            <span class="card__discount">10%</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                        <img src="https://via.placeholder.com/200x600" alt="Preview Picture">
+                      </a>
+                      <ul class="card__tags">
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #A33200;"></div>
+                            <span>Хит продаж</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #D8AE2D;"></div>
+                            <span>Новинки</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Лучшая цена</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Тест</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Тест</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Тест</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                          <span class="card__code">Арт. 128005</span>
+                          <div class="rating">
+                            <ul class="rating__stars">
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#unstarred" />
+                                </svg>
+                              </li>
+                            </ul>
+                            <span class="rating__count">12</span>
+                          </div>    </div>
+                        <a class="card__name" href="#">Длинное название. Идейные соображения высшего порядка, а также сложившаяся структура организации позволяет выполнять важные задания по разработке соответствующий условий активизации. Равным образом начало повседневной работы по формированию позиции играет важную роль в формировании форм развития.</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">77 777,77 ₽</span>
+                            <span class="card__discount">100%</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                        <img src="https://via.placeholder.com/600x200" alt="Preview Picture">
+                      </a>
+                      <ul class="card__tags">
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                          <div class="rating">
+                            <ul class="rating__stars">
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#unstarred" />
+                                </svg>
+                              </li>
+                            </ul>
+                            <span class="rating__count">12</span>
+                          </div>    </div>
+                        <a class="card__name" href="#">Головка пальца ноги</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">1 ₽</span>
+                            <span class="card__discount">0%</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                      </a>
+                      <ul class="card__tags">
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                        </div>
+                        <a class="card__name" href="#">Товар</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">100 ₽</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                      </a>
+                      <ul class="card__tags">
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                        </div>
+                        <a class="card__name" href="#">Товар</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">100 ₽</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="slider js-init-slider">
+    <div class="container">
+        <div class="slider__top">
+            <div class="slider__title-block">
+                <h2 class="slider__title">Хит продаж</h2>
+                <a class="show-more-link" href="#">
+                  <span>Смотреть все</span>
+                  <div class="arrow ">
+                    <svg>
+                      <use xlink:href="#arrow" />
+                    </svg>
+                  </div></a>            </div>
+
+            <div class="navigation">
+              <button class="navigation__button navigation__button_prev" type="button" title="Prev">
+                <div class="arrow arrow_revert">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+              <button class="navigation__button navigation__button_next" type="button" title="Next">
+                <div class="arrow ">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+            </div>        </div>
+        <div class="swiper loading">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                        <img src="img/content/product/preview-picture.jpg" alt="Preview Picture">
+                      </a>
+                      <ul class="card__tags">
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #A33200;"></div>
+                            <span>Хит продаж</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #D8AE2D;"></div>
+                            <span>Новинки</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Лучшая цена</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                          <span class="card__code">Арт. 128005</span>
+                          <div class="rating">
+                            <ul class="rating__stars">
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#unstarred" />
+                                </svg>
+                              </li>
+                            </ul>
+                            <span class="rating__count">12</span>
+                          </div>    </div>
+                        <a class="card__name" href="#">Кирпич лицевой Керма, Пшеничное Лето Гладкий, евро, 0,7НФ (КЕРМА, Нижний Новгород) в Белгороде</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">14,74 ₽</span>
+                            <span class="card__discount">10%</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                        <img src="https://via.placeholder.com/200x600" alt="Preview Picture">
+                      </a>
+                      <ul class="card__tags">
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #A33200;"></div>
+                            <span>Хит продаж</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #D8AE2D;"></div>
+                            <span>Новинки</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Лучшая цена</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Тест</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Тест</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="card__tag" href="#">
+                            <div class="card__tag-bg" style="background-color: #3B3B3E;"></div>
+                            <span>Тест</span>
+                          </a>
+                        </li>
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                          <span class="card__code">Арт. 128005</span>
+                          <div class="rating">
+                            <ul class="rating__stars">
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#unstarred" />
+                                </svg>
+                              </li>
+                            </ul>
+                            <span class="rating__count">12</span>
+                          </div>    </div>
+                        <a class="card__name" href="#">Длинное название. Идейные соображения высшего порядка, а также сложившаяся структура организации позволяет выполнять важные задания по разработке соответствующий условий активизации. Равным образом начало повседневной работы по формированию позиции играет важную роль в формировании форм развития.</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">77 777,77 ₽</span>
+                            <span class="card__discount">100%</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                        <img src="https://via.placeholder.com/600x200" alt="Preview Picture">
+                      </a>
+                      <ul class="card__tags">
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                          <div class="rating">
+                            <ul class="rating__stars">
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#starred" />
+                                </svg>
+                              </li>
+                              <li>
+                                <svg>
+                                  <use xlink:href="#unstarred" />
+                                </svg>
+                              </li>
+                            </ul>
+                            <span class="rating__count">12</span>
+                          </div>    </div>
+                        <a class="card__name" href="#">Головка пальца ноги</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">1 ₽</span>
+                            <span class="card__discount">0%</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                      </a>
+                      <ul class="card__tags">
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                        </div>
+                        <a class="card__name" href="#">Товар</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">100 ₽</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+                <li class="swiper-slide">
+                    <div class="card">
+                      <a class="card__image-wrapper" href="#">
+                      </a>
+                      <ul class="card__tags">
+                      </ul>
+                      <ul class="card__buttons">
+                        <li>
+                          <button class="card__button" type="button" title="Add to Favorites">
+                            <svg>
+                              <use xlink:href="#heart" />
+                            </svg>
+                          </button>
+                        </li>
+                        <li>
+                          <button class="card__button" type="button" title="Add to Compare">
+                            <svg>
+                              <use xlink:href="#chart" />
+                            </svg>
+                          </button>
+                        </li>
+                      </ul>
+                      <div>
+                        <div class="card__info">
+                        </div>
+                        <a class="card__name" href="#">Товар</a>
+                        <div class="card__price-block">
+                          <div class="card__price-wrapper">
+                            <span class="card__price">100 ₽</span>
+                          </div>
+                        </div>
+                        <form class="card__form">
+                          <div class="card__form-inputs">
+                            <div class="card__counter-input">
+                              <button class="card__counter-button card__counter-button_decrease" type="button" title="Decrease">
+                                <svg>
+                                  <use xlink:href="#minus" />
+                                </svg></button>
+                              <input name="count" type="number" value="480">
+                              <button class="card__counter-button card__counter-button_increase" type="button" title="Increase">
+                                <svg>
+                                  <use xlink:href="#plus" />
+                                </svg>
+                              </button>
+                            </div>
+                            <select class="dropdown" name="unit">
+                              <option value="1">шт.</option>
+                              <option value="2">м²</option>
+                            </select>
+                          </div>
+                          <button class="card__add-to-cart" type="submit" title="Add to Cart">
+                            <svg>
+                              <use xlink:href="#cart" />
+                            </svg>
+                          </button>
+                        </form>
+                        <div class="card__bottom">
+                          <button class="card__buy-button" type="button">Купить в 1 клик</button>
+                          <div class="card__status card__status_ok">
+                            <span>В наличии</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="assortment">
+    <div class="assortment__bg" style="background-image: url(img/content/intro/intro-bg.jpeg); opacity: 57%"></div>
+    <div class="container">
+        <div class="assortment__inner">
+            <div class="assortment__title-block">
+                <h2 class="assortment__title">Ассортимент</h2>
+                <a class="assortment__banner" href="#">
+                    <div class="assortment__banner-text">
+                        <h3 class="assortment__banner-title">Каталог строительных и отделочных материалов</h3>
+                        <div class="assortment__banner-pseudo-link">
+                            <span>В каталог</span>
+                            <div class="arrow ">
+                              <svg>
+                                <use xlink:href="#arrow" />
+                              </svg>
+                            </div>                        </div>
+                    </div>
+                    <div class="assortment__image-wrapper">
+                        <img src="img/content/assortment.png" alt="Assortment Link">
+                    </div>
+                </a>
+            </div>
+            <ul class="assortment__list">
+                <li class="assortment__link">
+                    <a class="assortment__link-top" href="#">
+                        <h3 class="assortment__link-title">Кирпич</h3>
+                        <span class="assortment__link-count">5 позиций</span>
+                    </a>
+                    <ul class="assortment__link-tags">
+                        <li>
+                            <a class="assortment__link-tag" href="#">Облицовочный кирпич</a>
+                        </li>
+                        <li>
+                            <a class="assortment__link-tag" href="#">Печной кирпич</a>
+                        </li>
+                        <li>
+                            <a class="assortment__link-tag" href="#">Строительный и рядовой кирпич</a>
+                        </li>
+                        <li>
+                            <button class="assortment__link-more">Еще 2</button>
+                        </li>
+                    </ul>
+                </li>
+                <li class="assortment__link">
+                    <a class="assortment__link-top" href="#">
+                        <h3 class="assortment__link-title">Строительные блоки,камни</h3>
+                        <span class="assortment__link-count">1 позиция</span>
+                    </a>
+                    <ul class="assortment__link-tags">
+                        <li>
+                            <a class="assortment__link-tag" href="#">Тест</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="assortment__link">
+                    <a class="assortment__link-top" href="#">
+                        <h3 class="assortment__link-title">Фасадная плитка, камень</h3>
+                        <span class="assortment__link-count">1 позиция</span>
+                    </a>
+                    <ul class="assortment__link-tags">
+                        <li>
+                            <a class="assortment__link-tag" href="#">Тест</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="assortment__link">
+                    <a class="assortment__link-top" href="#">
+                        <h3 class="assortment__link-title">Фасадные панели и сайдинг</h3>
+                        <span class="assortment__link-count">1 позиция</span>
+                    </a>
+                    <ul class="assortment__link-tags">
+                        <li>
+                            <a class="assortment__link-tag" href="#">Тест</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="assortment__link">
+                    <a class="assortment__link-top" href="#">
+                        <h3 class="assortment__link-title">Кровля и кровельные комплектующие</h3>
+                        <span class="assortment__link-count">1 позиция</span>
+                    </a>
+                    <ul class="assortment__link-tags">
+                        <li>
+                            <a class="assortment__link-tag" href="#">Тест</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="assortment__link">
+                    <a class="assortment__link-top" href="#">
+                        <h3 class="assortment__link-title">Брусчатка и тротуарная плитка</h3>
+                        <span class="assortment__link-count">1 позиция</span>
+                    </a>
+                    <ul class="assortment__link-tags">
+                        <li>
+                            <a class="assortment__link-tag" href="#">Тест</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="partners js-init-partners-slider">
+    <div class="container">
+        <div class="partners__top">
+            <h2 class="partners__title">238 Производителей</h2>
+            <div class="partners__navigation">
+                <a class="show-more-link" href="#">
+                  <span>Смотреть все</span>
+                  <div class="arrow ">
+                    <svg>
+                      <use xlink:href="#arrow" />
+                    </svg>
+                  </div></a>                <div class="navigation">
+                  <button class="navigation__button navigation__button_prev" type="button" title="Prev">
+                    <div class="arrow arrow_revert">
+                      <svg>
+                        <use xlink:href="#arrow" />
+                      </svg>
+                    </div>  </button>
+                  <button class="navigation__button navigation__button_next" type="button" title="Next">
+                    <div class="arrow ">
+                      <svg>
+                        <use xlink:href="#arrow" />
+                      </svg>
+                    </div>  </button>
+                </div>            </div>
+        </div>
+        <div class="partners__slider swiper loading">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <a class="partners__item" href="#" target="_blank" title="Partner Name">
+                        <div class="partners__item-image-wrapper">
+                            <svg>
+                                <use xlink:href="#decoration" />
+                            </svg>
+                            <img src="img/content/partner.png" alt="Partner">
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="partners__item" href="#" target="_blank" title="Partner Name">
+                        <div class="partners__item-image-wrapper">
+                            <svg>
+                                <use xlink:href="#decoration" />
+                            </svg>
+                            <img src="https://via.placeholder.com/600x200" alt="Partner">
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="partners__item" href="#" target="_blank" title="Partner Name">
+                        <div class="partners__item-image-wrapper">
+                            <svg>
+                                <use xlink:href="#decoration" />
+                            </svg>
+                            <img src="https://via.placeholder.com/200x600" alt="Partner">
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="partners__item" href="#" target="_blank" title="Partner Name">
+                        <div class="partners__item-image-wrapper">
+                            <svg>
+                                <use xlink:href="#decoration" />
+                            </svg>
+                            <img src="img/content/partner.png" alt="Partner">
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="partners__item" href="#" target="_blank" title="Partner Name">
+                        <div class="partners__item-image-wrapper">
+                            <svg>
+                                <use xlink:href="#decoration" />
+                            </svg>
+                            <img src="https://via.placeholder.com/600x200" alt="Partner">
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="partners__item" href="#" target="_blank" title="Partner Name">
+                        <div class="partners__item-image-wrapper">
+                            <svg>
+                                <use xlink:href="#decoration" />
+                            </svg>
+                            <img src="https://via.placeholder.com/200x600" alt="Partner">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="progressbar"></div>        </div>
+    </div>
+</section>
+
+<section class="benefits js-init-benefits-slider">
+    <div class="container">
+        <div class="swiper loading">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <a class="benefits__item" href="#">
+                        <div class="benefits__item-image-wrapper">
+                            <img src="img/content/benefit.svg" alt="Benefit">
+                        </div>
+                        <div class="benefits__item-text">
+                            <h3 class="benefits__item-title">3D дизайн бесплатно</h3>
+                            <div class="benefits__item-description">
+                                <p>Мы дарим Вам 3D визуализацию Вашего будущего дома из лучших материалов в лучшем сочетании, Абсолютно Бесплатно!</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="benefits__item" href="#">
+                        <div class="benefits__item-image-wrapper">
+                            <img src="https://via.placeholder.com/600x200" alt="Benefit">
+                        </div>
+                        <div class="benefits__item-text">
+                            <h3 class="benefits__item-title">Короткий текст</h3>
+                            <div class="benefits__item-description">
+                                <p>Короткое описание!</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="benefits__item" href="#">
+                        <div class="benefits__item-image-wrapper">
+                            <img src="https://via.placeholder.com/200x600" alt="Benefit">
+                        </div>
+                        <div class="benefits__item-text">
+                            <h3 class="benefits__item-title">В рамках спецификации современных стандартов, базовые сценарии поведения пользователей могут быть объективно рассмотрены соответствующими инстанциями.</h3>
+                            <div class="benefits__item-description">
+                                <p>Предварительные выводы неутешительны: сплочённость команды профессионалов позволяет оценить значение анализа существующих паттернов поведения.</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="benefits__item" href="#">
+                        <div class="benefits__item-image-wrapper">
+                            <img src="img/content/benefit.svg" alt="Benefit">
+                        </div>
+                        <div class="benefits__item-text">
+                            <h3 class="benefits__item-title">Тест</h3>
+                            <div class="benefits__item-description">
+                                <p>Тест</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="benefits__item" href="#">
+                        <div class="benefits__item-image-wrapper">
+                            <img src="img/content/benefit.svg" alt="Benefit">
+                        </div>
+                        <div class="benefits__item-text">
+                            <h3 class="benefits__item-title">Тест</h3>
+                            <div class="benefits__item-description">
+                                <p>Тест</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="benefits__item" href="#">
+                        <div class="benefits__item-image-wrapper">
+                            <img src="img/content/benefit.svg" alt="Benefit">
+                        </div>
+                        <div class="benefits__item-text">
+                            <h3 class="benefits__item-title">Тест</h3>
+                            <div class="benefits__item-description">
+                                <p>Тест</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="benefits__item" href="#">
+                        <div class="benefits__item-image-wrapper">
+                            <img src="img/content/benefit.svg" alt="Benefit">
+                        </div>
+                        <div class="benefits__item-text">
+                            <h3 class="benefits__item-title">Тест</h3>
+                            <div class="benefits__item-description">
+                                <p>Тест</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="benefits__item" href="#">
+                        <div class="benefits__item-image-wrapper">
+                            <img src="img/content/benefit.svg" alt="Benefit">
+                        </div>
+                        <div class="benefits__item-text">
+                            <h3 class="benefits__item-title">Тест</h3>
+                            <div class="benefits__item-description">
+                                <p>Тест</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="benefits__item" href="#">
+                        <div class="benefits__item-image-wrapper">
+                            <img src="img/content/benefit.svg" alt="Benefit">
+                        </div>
+                        <div class="benefits__item-text">
+                            <h3 class="benefits__item-title">Тест</h3>
+                            <div class="benefits__item-description">
+                                <p>Тест</p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="navigation">
+                <button class="navigation__button navigation__button_prev" type="button" title="Prev">
+                    <div class="arrow arrow_revert">
+                      <svg>
+                        <use xlink:href="#arrow" />
+                      </svg>
+                    </div>                </button>
+
+                <div class="pagination"></div>
+                <button class="navigation__button navigation__button_next" type="button" title="Next">
+                    <div class="arrow ">
+                      <svg>
+                        <use xlink:href="#arrow" />
+                      </svg>
+                    </div>                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="info">
+    <div class="info__bg" style="background-image: url(img/content/info-bg.jpg);"></div>
+    <div class="info__overlay" style="background-color: rgba(0, 0, 0, 0.7);"></div>
+    <div class="container">
+        <div class="info__inner">
+            <div class="info__top">
+                <div class="info__logo-wrapper">
+                    <img src="img/logo.svg" alt="Logo">
+                </div>
+                <h2 class="info__title"><b>>1 200</b> реализованных объектов</h2>
+            </div>
+            <div class="info__text">
+                <h3>Цель компании</h3>
+                <p>Цель нашей компании состоит в изменении архитектурного облика наших городов и соответственно
+                    изменение
+                    эмоционального фона его жителей на позитивную энергию добра и созидания. Создав в наших городах
+                    радующие
+                    архитектурные формы и ландшафты, можно с удивлением обнаружить, что люди стали дружелюбнее и
+                    спокойнее.
+                </p>
+                <h3>Ценности компании</h3>
+                <p>Самыми важными для нашей компании остаются сервис, инновационность , качество предоставляемых услуг.
+                    В
+                    первую очередь, качество для нас — это индивидуальный подход к решению поставленных заказчиком
+                    задач:
+                    консультирование, расчет проекта, 3D – моделирование, заключение договора, организация прямой
+                    доставки
+                    на объект.</p>
+                <h3>Развитие компании</h3>
+                <p>На развитие компании RKS linker (РеКонСтрой) сильно влияет европейская архитектура. Фирма RKS
+                    Klinker(РеКонСтрой) остается убежденным сторонником керамического кирпича, теплой керамики и
+                    натуральной
+                    черепицы. Сотрудники обучаются по европейским стандартам. Плотнее знакомятся с немецкой, английской,
+                    французской, голландской, бельгийской и российской архитектурой.</p>
+                <p>На развитие компании RKS linker (РеКонСтрой) сильно влияет европейская архитектура. Фирма RKS
+                    Klinker(РеКонСтрой) остается убежденным сторонником керамического кирпича, теплой керамики и
+                    натуральной
+                    черепицы. Сотрудники обучаются по европейским стандартам. Плотнее знакомятся с немецкой, английской,
+                    французской, голландской, бельгийской и российской архитектурой.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="news-slider js-init-news-slider">
+    <div class="container">
+        <div class="news-slider__top">
+            <form class="news-slider__filter">
+                <label class="news-slider__filter-item">
+                    <input name="section" type="radio" value="1" checked>
+                    <span>Статьи</span>
+                </label>
+                <label class="news-slider__filter-item">
+                    <input name="section" type="radio" value="2">
+                    <span>Новости</span>
+                </label>
+            </form>
+
+            <a class="show-more-link" href="#">
+              <span>Смотреть все</span>
+              <div class="arrow ">
+                <svg>
+                  <use xlink:href="#arrow" />
+                </svg>
+              </div></a>        </div>
+        <div class="swiper loading">
+            <div class="navigation">
+              <button class="navigation__button navigation__button_prev" type="button" title="Prev">
+                <div class="arrow arrow_revert">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+              <button class="navigation__button navigation__button_next" type="button" title="Next">
+                <div class="arrow ">
+                  <svg>
+                    <use xlink:href="#arrow" />
+                  </svg>
+                </div>  </button>
+            </div>            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <a class="news-slider__slide" href="#">
+                        <svg>
+                            <use xlink:href="#decoration" />
+                        </svg>
+                        <div class="news-slider__slide-date">
+                            <span class="news-slider__slide-day">08</span>
+                            <span class="news-slider__slide-month">Июль</span>
+                        </div>
+                        <h3 class="news-slider__slide-title">Статья, подготовлена специалистами RKS KLINKER (РеКонСтрой)....</h3>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="news-slider__slide" href="#">
+                        <svg>
+                            <use xlink:href="#decoration" />
+                        </svg>
+                        <div class="news-slider__slide-date">
+                            <span class="news-slider__slide-day">77</span>
+                            <span class="news-slider__slide-month">Июль</span>
+                        </div>
+                        <h3 class="news-slider__slide-title">Мало текста.</h3>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="news-slider__slide" href="#">
+                        <svg>
+                            <use xlink:href="#decoration" />
+                        </svg>
+                        <div class="news-slider__slide-date">
+                            <span class="news-slider__slide-day">06</span>
+                            <span class="news-slider__slide-month">Июль</span>
+                        </div>
+                        <h3 class="news-slider__slide-title">Много текста. Кстати, тщательные исследования конкурентов лишь добавляют фракционных разногласий и своевременно верифицированы..</h3>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="news-slider__slide" href="#">
+                        <svg>
+                            <use xlink:href="#decoration" />
+                        </svg>
+                        <div class="news-slider__slide-date">
+                            <span class="news-slider__slide-day">05</span>
+                            <span class="news-slider__slide-month">Июль</span>
+                        </div>
+                        <h3 class="news-slider__slide-title">Тест.</h3>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="news-slider__slide" href="#">
+                        <svg>
+                            <use xlink:href="#decoration" />
+                        </svg>
+                        <div class="news-slider__slide-date">
+                            <span class="news-slider__slide-day">04</span>
+                            <span class="news-slider__slide-month">Июль</span>
+                        </div>
+                        <h3 class="news-slider__slide-title">Тест.</h3>
+                    </a>
+                </li>
+                <li class="swiper-slide">
+                    <a class="news-slider__slide" href="#">
+                        <svg>
+                            <use xlink:href="#decoration" />
+                        </svg>
+                        <div class="news-slider__slide-date">
+                            <span class="news-slider__slide-day">03</span>
+                            <span class="news-slider__slide-month">Июль</span>
+                        </div>
+                        <h3 class="news-slider__slide-title">Тест.</h3>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+        </main>
+        <style>
+            .ie-placeholder {
+                z-index: 4000;
+                position: fixed;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #202020;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                
+            }
+            .ie-placeholder__message {
+                font-size: 2rem;
+                line-height: 1.2;
+                font-weight: 500;
+                margin: auto;
+            }
+            @supports (display: grid) {
+                .ie-placeholder {
+                    display: none;
+                }
+            }
+        </style>
+        <div class="ie-placeholder">
+            <div class="ie-placeholder__message">
+                Извините, ваш браузер не поддерживается
+            </div>
+        </div>        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="assets/js/backend.js"></script>
+    </div>
+</body>
+
+</html>
